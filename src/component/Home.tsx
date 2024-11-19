@@ -1,14 +1,13 @@
 import { RightOutlined } from "@ant-design/icons";
-import React from "react";
 
 type Props = {};
 
-export default function Home({}: Props) {
+export default function Home({ }: Props) {
   return (
     <>
-      <div className="relative font-[Epilogue]">
+      <div className="relative">
         <img
-          className="w-full max-h-[500px] object-cover"
+          className="w-full max-h-[650px] object-cover"
           src="https://lh3.googleusercontent.com/i0liLyeyVhiAzCIhpkBpL-7bkR7x2nPksHs6alQvz6gsa5YbkocCQ_x9I2scCmMu4gv2f3v0l8BYuVJJ6vCMKXOY1Aa5SmXQ=w4000"
           alt=""
         />
@@ -22,7 +21,7 @@ export default function Home({}: Props) {
           <p className="text-[64px] font-semibold">
             Establishing a Robustr <br /> NbS Project Framework
           </p>
-          <button className="bg-white text-black rounded-2xl px-10 py-3">
+          <button className="bg-white text-lg font-medium text-black rounded-full px-10 py-3">
             CONTACT INFOMATION {<RightOutlined />}
           </button>
         </div>
